@@ -31,7 +31,7 @@ Create a Directory for Your Website:
 
 Create a directory to hold your website files:
 Bash
-sudo mkdir /var/www/mywebsite
+sudo mkdir mywebsite
 Use code with caution.
 
 Create Website Files:
@@ -83,7 +83,7 @@ server {
     listen 80;
     server_name your_domain_name; # Replace with your domain name or server IP
 
-    root /var/www/mywebsite;
+    root /home/ubuntu/mywebsite;
     index index.html index.htm;
 
     location / {
