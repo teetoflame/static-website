@@ -1,0 +1,11 @@
+server {
+    listen 80;
+    server_name your_domain_name; # Replace with your domain name or server IP
+
+    root /var/www/mywebsite;
+    index index.html index.htm;
+
+    location / {
+        try_files $uri $uri/ /index.html;
+    }
+}
