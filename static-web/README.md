@@ -105,4 +105,4 @@ This guide serves as a basic starting point. You can customize it further by add
  
 **Note:** Remember to replace `your_domain_name` with your actual domain name or server IP. Also, ensure that the web server user (usually `www-data`) has appropriate permissions to access the `/home/ubuntu/mywebsite` directory and its contents.
  
-**Would you like to learn more about setting permissions for the web server user?**
+
